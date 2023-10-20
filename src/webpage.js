@@ -1,3 +1,5 @@
+import createHome from "./home";
+
 function createHeader() {
   const header = document.createElement("div");
   header.classList.add("header");
@@ -39,6 +41,7 @@ function createWebpage() {
   const content = document.getElementById("content");
 
   content.appendChild(createHeader());
+  content.appendChild(createHome());
 }
 
 export default createWebpage;
