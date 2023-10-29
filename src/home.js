@@ -2,8 +2,8 @@ function createHome() {
   const home = document.createElement("div");
   home.classList.add("home");
 
-  home.appendChild(createGreeting());
   home.appendChild(createHomeImg());
+  home.appendChild(createGreeting());
   home.appendChild(createOurStory());
 
   return home;
@@ -28,7 +28,7 @@ function createHomeImg() {
 
   const homeImg = document.createElement("img");
   homeImg.classList.add("homeImg");
-  homeImg.src = "../src/images/home-img.avif";
+  homeImg.src = "../src/images/home.avif";
   homeImg.alt = "Japanese style sushi platter";
 
   homeImgContainer.appendChild(homeImg);

@@ -39,7 +39,7 @@ function createSushi() {
 
   const sushiImg = document.createElement("img");
   sushiImg.classList.add("sushiImg");
-  sushiImg.src = "../src/images/sushi.jpeg";
+  sushiImg.src = "../src/images/sushi.avif";
   sushiImg.alt = "Photo of sushi";
 
   const sushiTitle = document.createElement("h3");

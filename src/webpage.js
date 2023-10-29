@@ -1,5 +1,6 @@
 import createHome from "./home";
 import createMenu from "./menu";
+import createContact from "./contact";
 
 function createHeader() {
   const header = document.createElement("div");
@@ -44,6 +45,7 @@ function createWebpage() {
   content.appendChild(createHeader());
   content.appendChild(createHome());
   content.appendChild(createMenu());
+  content.appendChild(createContact());
 }
 
 export default createWebpage;
