@@ -1,13 +1,13 @@
 Image credits:
 
-1. Home page image is from Mahmoud Fawzy from unsplash.com.
-   Profile link: https://unsplash.com/@mahmoud_fawzy100
-   Image link: https://unsplash.com/photos/Dbx6-XZY6Dg
+1. Home page image is from Su San Lee from Unsplash.com
+   Profile Link: https://unsplash.com/@blackodc
+   Photo Link: https://unsplash.com/photos/pagoda-surrounded-by-trees-E_eWwM29wfU
 
 2. Menu images:
-   Sushi image is from omisido from pixabay.com;
-   profile link: https://pixabay.com/users/omisido-946215/
-   photo link: https://pixabay.com/photos/sushi-salmon-seafood-sashimi-asian-5439474/
+   Sushi image is from Mahmoud Fawzy from Unsplash.com;
+   Profile link: https://unsplash.com/@mahmoud_fawzy100
+   Image link: https://unsplash.com/photos/Dbx6-XZY6Dg
 
    Sashimi image is from Cloris Ying on unsplash.com.
    profile link: https://unsplash.com/@clorisyy
@@ -32,3 +32,7 @@ Image credits:
    Dango image is from Marek Piwnicki from unsplash.com.
    profile link: https://unsplash.com/@marekpiwnicki
    photo link: https://unsplash.com/photos/brown-and-white-ice-cream-MLEWvcUcjas
+
+3. Contact page image is from Andraz Lazic from unsplash.com.
+   Profile link: https://unsplash.com/@andrazlazic
+   Photo Link: https://unsplash.com/photos/brown-wooden-sticks-on-black-textile-N9ctLjHZmD8
