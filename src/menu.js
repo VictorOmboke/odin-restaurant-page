@@ -1,6 +1,9 @@
 function createMenu() {
+  const content = document.getElementById("content");
+
   const menu = document.createElement("div");
-  menu.classList.add("menu");
+  menu.setAttribute("id", "menu");
+  menu.classList.add("tabContent");
 
   const menuHeader = document.createElement("h1");
   menuHeader.classList.add("menuHeader");
@@ -17,7 +20,7 @@ function createMenu() {
   menu.appendChild(createMochi());
   menu.appendChild(createDango());
 
-  return menu;
+  content.appendChild(menu);
 }
 
 function createEntree() {
