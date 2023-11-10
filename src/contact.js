@@ -1,6 +1,9 @@
 function createContact() {
+  const content = document.getElementById("content");
+
   const contact = document.createElement("div");
-  contact.classList.add("contact");
+  contact.setAttribute("id", "contact");
+  contact.classList.add("tabContent");
 
   const contactHeader = document.createElement("h1");
   contactHeader.classList.add("contactHeader");
@@ -15,7 +18,7 @@ function createContact() {
   contact.appendChild(storeInfoHeader);
   contact.appendChild(createHours());
 
-  return contact;
+  content.appendChild(contact);
 }
 
 function createContactImg() {
