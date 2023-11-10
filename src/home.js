@@ -1,12 +1,16 @@
 function createHome() {
+  const content = document.getElementById("content");
+
   const home = document.createElement("div");
-  home.classList.add("home");
+  home.setAttribute("id", "home");
+  home.classList.add("tabContent");
+  home.classList.add("active");
 
   home.appendChild(createHomeImg());
   home.appendChild(createGreeting());
   home.appendChild(createOurStory());
 
-  return home;
+  content.appendChild(home);
 }
 
 function createGreeting() {
