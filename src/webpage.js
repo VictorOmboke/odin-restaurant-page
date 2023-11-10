@@ -1,51 +1,48 @@
-import createHome from "./home";
-import createMenu from "./menu";
-import createContact from "./contact";
-
 function createHeader() {
   const header = document.createElement("div");
+  header.setAttribute("id", "header");
   header.classList.add("header");
 
   const restaurantName = document.createElement("h1");
   restaurantName.classList.add("restaurantName");
-  restaurantName.textContent = "Ōishii";
+  restaurantName.textContent = "Ōishī";
 
   header.appendChild(restaurantName);
-  header.appendChild(createNav());
+  header.appendChild(createTabs());
 
   return header;
 }
 
-function createNav() {
-  const nav = document.createElement("div");
-  nav.classList.add("navContainer");
+function createTabs() {
+  const tabContainer = document.createElement("div");
+  tabContainer.classList.add("tabContainer");
 
-  const home = document.createElement("button");
-  home.classList.add("homeBtn");
-  home.textContent = "Home";
+  const homeTab = document.createElement("button");
+  homeTab.setAttribute("id", "homeTab");
+  homeTab.classList.add("tab", "home");
+  homeTab.classList.add("active");
+  homeTab.textContent = "Home";
 
-  const menu = document.createElement("button");
-  menu.classList.add("menuBtn");
-  menu.textContent = "Menu";
+  const menuTab = document.createElement("button");
+  menuTab.setAttribute("id", "menuTab");
+  menuTab.classList.add("tab", "menu");
+  menuTab.textContent = "Menu";
 
-  const contact = document.createElement("button");
-  contact.classList.add("contactBtn");
-  contact.textContent = "Contact";
+  const contactTab = document.createElement("button");
+  contactTab.setAttribute("id", "contactTab");
+  contactTab.classList.add("tab", "contact");
+  contactTab.textContent = "Contact";
 
-  nav.appendChild(home);
-  nav.appendChild(menu);
-  nav.appendChild(contact);
+  tabContainer.appendChild(homeTab);
+  tabContainer.appendChild(menuTab);
+  tabContainer.appendChild(contactTab);
 
-  return nav;
+  return tabContainer;
 }
 
 function createWebpage() {
   const content = document.getElementById("content");
-
   content.appendChild(createHeader());
-  content.appendChild(createHome());
-  content.appendChild(createMenu());
-  content.appendChild(createContact());
 }
 
 export default createWebpage;
