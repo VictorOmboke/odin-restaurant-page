@@ -5,15 +5,10 @@ function createContact() {
   contact.setAttribute("id", "contact");
   contact.classList.add("tabContent");
 
-  const contactHeader = document.createElement("h1");
-  contactHeader.classList.add("contactHeader");
-  contactHeader.textContent = "Contact Us";
-
   const storeInfoHeader = document.createElement("h2");
   storeInfoHeader.classList.add("storeInfoHeader");
   storeInfoHeader.textContent = "Store Information";
 
-  contact.appendChild(contactHeader);
   contact.appendChild(createContactImg());
   contact.appendChild(storeInfoHeader);
   contact.appendChild(createHours());
@@ -36,6 +31,10 @@ function createContactImg() {
 }
 
 function createHours() {
+  const hoursHeader = document.createElement("h3");
+  hoursHeader.classList.add("hoursHeader");
+  hoursHeader.textContent = "Hours";
+
   const hours = document.createElement("div");
   hours.classList.add("hours");
 
@@ -63,6 +62,7 @@ function createHours() {
   const sunday = document.createElement("li");
   sunday.textContent = "Sunday: 12pm - 11pm";
 
+  storeHours.appendChild(hoursHeader);
   storeHours.appendChild(monday);
   storeHours.appendChild(tuesday);
   storeHours.appendChild(wednesday);
@@ -78,6 +78,10 @@ function createHours() {
 }
 
 function createAddress() {
+  const addressHeader = document.createElement("h3");
+  addressHeader.classList.add("addressHeader");
+  addressHeader.textContent = "Address";
+
   const address = document.createElement("div");
   address.classList.add("address");
 
@@ -99,6 +103,7 @@ function createAddress() {
   const phone = document.createElement("li");
   phone.textContent = "Phone: (555) 123-4567";
 
+  addressInfo.appendChild(addressHeader);
   addressInfo.appendChild(streetAddress);
   addressInfo.appendChild(city);
   addressInfo.appendChild(state);
