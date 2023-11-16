@@ -22,7 +22,7 @@ function createContactImg() {
 
   const contactImg = document.createElement("img");
   contactImg.classList.add("contactImg");
-  contactImg.src = "../src/images/contact.avif";
+  contactImg.src = "./images/contact.avif";
   contactImg.alt = "Photo of chopsticks";
 
   contactImgContainer.appendChild(contactImg);
