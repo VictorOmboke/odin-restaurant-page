@@ -5,11 +5,6 @@ function createMenu() {
   menu.setAttribute("id", "menu");
   menu.classList.add("tabContent");
 
-  const menuHeader = document.createElement("h1");
-  menuHeader.classList.add("menuHeader");
-  menuHeader.textContent = "Menu";
-
-  menu.appendChild(menuHeader);
   menu.appendChild(createEntree());
   menu.appendChild(createSushi());
   menu.appendChild(createSashimi());
@@ -84,7 +79,7 @@ function createSashimi() {
 
   const sashimiImg = document.createElement("img");
   sashimiImg.classList.add("sashimiImg");
-  sashimiImg.src = "../src/images/sashimi.avif";
+  sashimiImg.src = "../src/images/sashimi-img.avif";
   sashimiImg.alt = "Photo of sashimi";
 
   const sashimiTitle = document.createElement("h3");
@@ -160,7 +155,7 @@ function createUdon() {
 
   const udonImg = document.createElement("img");
   udonImg.classList.add("udonImg");
-  udonImg.src = "../src/images/udon.avif";
+  udonImg.src = "../src/images/udon-img.avif";
   udonImg.alt = "Photo of Udon noodles";
 
   const udonTitle = document.createElement("h3");
