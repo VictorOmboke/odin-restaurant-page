@@ -1,3 +1,5 @@
+This project was really fun to build as I got creative and used my recent vacation to Japan as inspiration. Researching the authentic dishes I experienced and finding authentic images to go with them was quite the process. Where I struggled the most with this project was implementing tab switching as it was way more complicated than I thought. What I found simple and enjoyable was styling everything with CSS and experimenting with different layout methods like grid and flexbox. Overall a fun project!
+
 Image credits:
 
 1. Home page image is from Su San Lee from Unsplash.com
