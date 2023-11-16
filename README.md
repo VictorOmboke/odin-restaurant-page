@@ -9,17 +9,17 @@ Image credits:
    Profile link: https://unsplash.com/@mahmoud_fawzy100
    Image link: https://unsplash.com/photos/Dbx6-XZY6Dg
 
-   Sashimi image is from Cloris Ying on unsplash.com.
-   profile link: https://unsplash.com/@clorisyy
-   photo link: https://unsplash.com/photos/plate-of-sushi-aZqfzi_5lsk
+   Sashimi image is from Huyen Bui on unsplash.com.
+   profile link: https://unsplash.com/@huyenbui30
+   photo link: https://unsplash.com/photos/a-bowl-filled-with-lots-of-different-types-of-food-a07BcNKwK5I
 
    Ramen image is from Stephen Bedase from unsplash.com.
    profile link: https://unsplash.com/@stephenkbedase
    photo link: https://unsplash.com/photos/cooked-food-on-white-ceramic-bowl-WjdOYhgTGCM
 
-   Udon image is from Youjeen Cho from unsplash.com.
-   profile link: https://unsplash.com/@youjeencho
-   photo link: https://unsplash.com/photos/noodle-soup-on-black-bowl-1zlLiOT81Jw
+   Udon image is from Iaura Iimsenkhe from unsplash.com.
+   profile link: https://unsplash.com/@limsenkhe
+   photo link: https://unsplash.com/photos/white-ceramic-bowl-with-noodles-and-chopsticks-2a1-ttrWiw0
 
    Gyudon image is from Xavier Chng from unsplash.com.
    profile link: https://unsplash.com/@cohesionsingapore
