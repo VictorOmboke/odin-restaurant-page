@@ -8,7 +8,6 @@ function createHome() {
 
   home.appendChild(createHomeImg());
   home.appendChild(createGreeting());
-  home.appendChild(createOurStory());
 
   content.appendChild(home);
 }
@@ -22,6 +21,7 @@ function createGreeting() {
   welcomeMessage.textContent = "Welcome to Oishī";
 
   greeting.appendChild(welcomeMessage);
+  greeting.appendChild(createOurStory());
 
   return greeting;
 }
@@ -32,8 +32,8 @@ function createHomeImg() {
 
   const homeImg = document.createElement("img");
   homeImg.classList.add("homeImg");
-  homeImg.src = "../src/images/home.avif";
-  homeImg.alt = "Japanese style sushi platter";
+  homeImg.src = "../src/images/home-img.avif";
+  homeImg.alt = "Japanese temple";
 
   homeImgContainer.appendChild(homeImg);
 
