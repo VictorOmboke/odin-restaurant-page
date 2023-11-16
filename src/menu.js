@@ -37,7 +37,7 @@ function createSushi() {
 
   const sushiImg = document.createElement("img");
   sushiImg.classList.add("sushiImg");
-  sushiImg.src = "./images/sushi.avif";
+  sushiImg.src = "images/sushi.avif";
   sushiImg.alt = "Photo of sushi";
 
   const sushiTitle = document.createElement("h3");
@@ -79,7 +79,7 @@ function createSashimi() {
 
   const sashimiImg = document.createElement("img");
   sashimiImg.classList.add("sashimiImg");
-  sashimiImg.src = "./images/sashimi-img.avif";
+  sashimiImg.src = "images/sashimi-img.avif";
   sashimiImg.alt = "Photo of sashimi";
 
   const sashimiTitle = document.createElement("h3");
@@ -117,7 +117,7 @@ function createRamen() {
 
   const ramenImg = document.createElement("img");
   ramenImg.classList.add("ramenImg");
-  ramenImg.src = "./images/ramen.avif";
+  ramenImg.src = "images/ramen.avif";
   ramen.alt = "Photo of ramen noodles";
 
   const ramenTitle = document.createElement("h3");
@@ -155,7 +155,7 @@ function createUdon() {
 
   const udonImg = document.createElement("img");
   udonImg.classList.add("udonImg");
-  udonImg.src = "./images/udon-img.avif";
+  udonImg.src = "images/udon-img.avif";
   udonImg.alt = "Photo of Udon noodles";
 
   const udonTitle = document.createElement("h3");
@@ -193,7 +193,7 @@ function createGyudon() {
 
   const gyudonImg = document.createElement("img");
   gyudonImg.classList.add("gyudonImg");
-  gyudonImg.src = "./images/gyudon.avif";
+  gyudonImg.src = "images/gyudon.avif";
   gyudonImg.alt = "Photo of gyudon dish";
 
   const gyudonTitle = document.createElement("h3");
@@ -244,7 +244,7 @@ function createMochi() {
 
   const mochiImg = document.createElement("img");
   mochiImg.classList.add("mochiImg");
-  mochiImg.src = "./images/mochi.avif";
+  mochiImg.src = "images/mochi.avif";
   mochiImg.alt = "Photo of Mochi dessert";
 
   const mochiTitle = document.createElement("h3");
@@ -282,7 +282,7 @@ function createDango() {
 
   const dangoImg = document.createElement("img");
   dangoImg.classList.add("dangoImg");
-  dangoImg.src = "./images/dango.avif";
+  dangoImg.src = "images/dango.avif";
   dangoImg.alt = "Photo of Dango dessert";
 
   const dangoTitle = document.createElement("h3");
