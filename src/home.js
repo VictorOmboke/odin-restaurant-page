@@ -32,7 +32,7 @@ function createHomeImg() {
 
   const homeImg = document.createElement("img");
   homeImg.classList.add("homeImg");
-  homeImg.src = "../src/images/home-img.avif";
+  homeImg.src = "./images/home-img.avif";
   homeImg.alt = "Japanese temple";
 
   homeImgContainer.appendChild(homeImg);
